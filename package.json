@@ -1,0 +1,18 @@
+{
+  "name": "relink-shortener",
+  "version": "1.0.0",
+  "description": "A shortener with https://rel.ink service",
+  "main": "index.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shortener",
+    "url",
+    "relink",
+    "bitly"
+  ],
+  "author": "AndroneDev",
+  "license": "ISC"
+}
