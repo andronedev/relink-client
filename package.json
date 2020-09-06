@@ -1,9 +1,8 @@
 {
-  "name": "relink-shortener",
-  "version": "1.0.0",
+  "name": "relink-client",
+  "version": "1.0.1",
   "description": "A shortener with https://rel.ink service",
   "main": "index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +13,9 @@
     "bitly"
   ],
   "author": "AndroneDev",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "form-data": "^3.0.0"
+  }
 }
