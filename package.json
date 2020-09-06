@@ -1,10 +1,14 @@
 {
   "name": "relink-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A shortener with https://rel.ink service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andronedev/relink-client"
   },
   "keywords": [
     "shortener",
